@@ -1,0 +1,46 @@
+[
+  {
+    "id": 2,
+    "matricula": "2026A01",
+    "nome": "DAVI TORDATO MARTARELLO",
+    "turma": "2B",
+    "data": "2026-12-22",
+    "presente": true,
+    "motivoSaida": "BANHEIRO",
+    "minutosFora": 32,
+    "alertaTempo": true
+  },
+  {
+    "id": 3,
+    "matricula": "2026A01",
+    "nome": "VICTOR CIRULLI",
+    "turma": "2B",
+    "data": "2026-12-22",
+    "presente": true,
+    "motivoSaida": "ENFERMARIA",
+    "minutosFora": 3,
+    "alertaTempo": false
+  },
+  {
+    "id": 4,
+    "matricula": "2026A01",
+    "nome": "Test",
+    "turma": "2B",
+    "data": "Thu Nov 12 2026 10:59:41 GMT-0300 (Horário Padrão de Brasília)",
+    "presente": true,
+    "motivoSaida": "BIBLIOTECA",
+    "minutosFora": 3,
+    "alertaTempo": true
+  },
+  {
+    "id": 7,
+    "matricula": "2026A01",
+    "nome": "Ryan",
+    "turma": "2B",
+    "data": "Thu Nov 12 2026 10:57:14 GMT-0300 (Horário Padrão de Brasília)",
+    "presente": true,
+    "motivoSaida": "BIBLIOTECA",
+    "minutosFora": 3,
+    "alertaTempo": true
+  }
+]
