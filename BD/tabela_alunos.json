@@ -42,5 +42,27 @@
     "motivoSaida": "BIBLIOTECA",
     "minutosFora": 3,
     "alertaTempo": true
+  },
+  {
+    "id": 8,
+    "matricula": "2026A01",
+    "nome": "Ryan",
+    "turma": "2B",
+    "data": "Thu Nov 12 2026 12:16:09 GMT-0300 (Horário Padrão de Brasília)",
+    "presente": true,
+    "motivoSaida": "BIBLIOTECA",
+    "minutosFora": 3,
+    "alertaTempo": true
+  },
+  {
+    "id": 9,
+    "matricula": "2026A01",
+    "nome": "Ryan",
+    "turma": "2B",
+    "data": "Thu Nov 12 2026 13:42:30 GMT-0300 (Horário Padrão de Brasília)",
+    "presente": true,
+    "motivoSaida": "BIBLIOTECA",
+    "minutosFora": 3,
+    "alertaTempo": true
   }
 ]

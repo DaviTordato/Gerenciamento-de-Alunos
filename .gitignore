@@ -1,0 +1,4 @@
+node-modules/
+.env
+nop-debug.log*
+yarn-error.log*

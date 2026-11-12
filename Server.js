@@ -1,5 +1,6 @@
 import express, { json } from "express";
 import { listall, saveall } from "./manager/manager.js";
+import { newId } from "./Functions/Functions.js"
 
 const app = express();
 const port = 3000;
@@ -35,12 +36,13 @@ app.get("/Alunos/:id", async (req, res) => {
 
 app.post("/alunos", async (req, res) => {
     try {
-        const { id, matricula, nome, turma, data, presente, motivoSaida, minutosFora } = req.body;        
-        if (!id || !matricula || !nome || !turma || !data || !presente || !motivoSaida || !minutosFora) {
+        const { matricula, nome, turma, data, presente, motivoSaida, minutosFora } = req.body;        
+        if (!matricula || !nome || !turma || !data || !presente || !motivoSaida || !minutosFora) {
             return res.status(400).json({ error: "Todos os campos são obrigatórios" })
         }
+        const id = await newId()
         const novoCadastro = {
-            id: Number(id),
+            id: id,
             matricula: matricula,
             nome: nome,
             turma: turma,
